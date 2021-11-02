@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="appPackage" value="com.vodafone.selfservis"/>
+  <parameter name="appActivity" value="com.vodafone.selfservis.activities.SplashActivity"/>
+  <parameter name="TestName" value="Login To TfL"/>
+  <parameter name="VIDEO_RECORDING" value="false"/>
+  <parameter name="PLATFORM_VERSION" value="6.0.1"/>
+  <parameter name="PLATFORM_NAME" value="Android"/>
+  <parameter name="appWaitPackage" value="com.bigbasket.mobileapp"/>
+  <parameter name="appWaitActivity" value="com.bigbasket.mobileapp.activity.HomeActivity"/>
+  <parameter name="CalendarName" value="Calendar.xlsx"/>
+  <parameter name="UDID" value="04157df44070ef39"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.project.tests.TestRunner">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="BeforeSuite"/>
+          <include name="tearDownClass"/>
+          <include name="startRecording"/>
+          <include name="automationSetup"/>
+          <include name="automationTeardown"/>
+          <include name="setUpClass"/>
+          <include name="stopRecording"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.project.tests.TestRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

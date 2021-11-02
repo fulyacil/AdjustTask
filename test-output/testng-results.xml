@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21617" started-at="2021-02-23T14:56:05Z" finished-at="2021-02-23T14:56:26Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.project.tests.TestRunner@5c18298f]" name="feature" class="com.project.tests.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="21617" started-at="2021-02-23T14:56:05Z" finished-at="2021-02-23T14:56:26Z">
+      <class name="com.project.tests.TestRunner">
+        <test-method status="PASS" signature="BeforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.project.tests.TestRunner@5c18298f]" name="BeforeSuite" is-config="true" duration-ms="38354" started-at="2021-02-23T14:55:26Z" finished-at="2021-02-23T14:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[04157df44070ef39]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[com.vodafone.selfservis]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.vodafone.selfservis.activities.SplashActivity]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[com.bigbasket.mobileapp]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[com.bigbasket.mobileapp.activity.HomeActivity]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="automationSetup(java.lang.String, java.lang.String)[pri:0, instance:com.project.tests.TestRunner@5c18298f]" name="automationSetup" is-config="true" duration-ms="7672" started-at="2021-02-23T14:56:05Z" finished-at="2021-02-23T14:56:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Calendar.xlsx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Login To TfL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationSetup -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.project.tests.TestRunner@5c18298f]" name="setUpClass" is-config="true" duration-ms="677" started-at="2021-02-23T14:56:12Z" finished-at="2021-02-23T14:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="startRecording(java.lang.String)[pri:0, instance:com.project.tests.TestRunner@5c18298f]" name="startRecording" is-config="true" duration-ms="0" started-at="2021-02-23T14:56:13Z" finished-at="2021-02-23T14:56:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.project.tests.TestRunner@5c18298f]" name="feature" duration-ms="12967" started-at="2021-02-23T14:56:13Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-02-23T14:56:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yanimda Growth Squad Test Cases]]>
+              </value>
+            </param>
+          </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
+at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+at com.project.tests.TestRunner.feature(TestRunner.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.project.tests.CheckFaturaMenuTest.test_checkFaturaMenu(CheckFaturaMenuTest.java:25)
+at com.project.stepdefs.stepdef.checkIslemleri(stepdef.java:144)
+at ✽.Then CheckIslemleri(SanitySuite.feature:113)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="stopRecording(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.project.tests.TestRunner@5c18298f]" name="stopRecording" is-config="true" duration-ms="4" started-at="2021-02-23T14:56:26Z" finished-at="2021-02-23T14:56:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=feature status=FAILURE method=TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.project.tests.TestRunner@5c18298f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopRecording -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.project.tests.TestRunner@5c18298f]" name="tearDownClass" is-config="true" duration-ms="29" started-at="2021-02-23T14:56:26Z" finished-at="2021-02-23T14:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="automationTeardown()[pri:0, instance:com.project.tests.TestRunner@5c18298f]" name="automationTeardown" is-config="true" duration-ms="0" started-at="2021-02-23T14:56:26Z" finished-at="2021-02-23T14:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationTeardown -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.project.tests.TestRunner@5c18298f]" name="afterSuite" is-config="true" duration-ms="3059" started-at="2021-02-23T14:56:26Z" finished-at="2021-02-23T14:56:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.project.tests.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
